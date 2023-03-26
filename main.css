@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(0, 6, 83);
+    color: whitesmoke;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+section .container img {
+    width: 700px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+.brands-list img {
+    max-width: 86px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color:  rgb(0, 6, 83);
+
+}
+section p {
+    margin-bottom: 12px;
+}
+
+section .store-front {
+    margin-right: 30px;
+}
+
+.social-links img {
+    max-width: 40px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 6px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-metods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin: 8px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(0, 6, 83);
+    color: whitesmoke;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(35, 42, 134);;
+}
+
+input :focus, textarea :focus {
+    outline-color:  rgb(0, 6, 83);
+}
+
+footer {
+    background-color: rgb(0, 6, 83);
+    color: whitesmoke;
+    padding: 16px 0;
+}
